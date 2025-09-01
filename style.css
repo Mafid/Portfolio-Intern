@@ -42,7 +42,11 @@ header{
     color: white;
     font-weight: 100%;
 }
-
+/* This is home page */
+.home-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
 /* This is skills part */
 
@@ -108,10 +112,63 @@ img{
     justify-content: center;
     justify-content:first baseline;
 }
+/* This is contact part */
+.image{
+    margin: 150px;
+    
+}
+.contact-head{
+    color: #378345;
+    font-size: 40px;
+    padding: 30px 0px;
+    margin: 20px 0px;
+}
+.main-con{
+    width: 100%;
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.contact-form{
+    margin-left: 40px;
+}
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #378345;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    min-height: 120px;
+}
+
+.submit-btn {
+    background-color: #71716e;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
 /* This is Footer Section. */
 footer{
     background-color: #378345;
     padding: 24px 32px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
