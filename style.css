@@ -47,6 +47,12 @@ header{
     display: grid;
     grid-template-columns: auto auto;
 }
+.intro-text{
+    color: #378345;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 50px;
+}
 
 /* This is skills part */
 
